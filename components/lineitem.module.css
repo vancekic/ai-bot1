@@ -1,12 +1,12 @@
 .dialogLineYou {
     list-style-type: none;
     text-align: left;
-    margin: 5;
-    padding-left: 10;
-    padding-right: 10;
-    padding-top: 0.5;
-    padding-bottom: 0.5;
-    font-size: 16;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 16px;
     font-style: italic;
     background-color: #ace;
 }
@@ -14,12 +14,12 @@
 .dialogLine {
     list-style-type: none;
     text-align: right;
-    margin: 5;
-    padding-left: 10;
-    padding-right: 10;
-    padding-top: 0.5;
-    padding-bottom: 0.5;
-    font-size: 16;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 16px;
     font-style: italic;
     background-color: #ccc;
 }

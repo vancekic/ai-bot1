@@ -24,7 +24,6 @@ class EnterPrompt extends React.Component {
         
     changeTextHandler(e) {
         this.setState( {prompt: e.target.value} );
-        console.log(this.state.prompt);
     }
 
     async onPressHandlerSubmit(event) {
