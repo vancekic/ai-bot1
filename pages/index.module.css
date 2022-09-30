@@ -97,10 +97,13 @@
 }
 
 .chatHistory {
+  margin-top: 5px;
+  border: solid thin black;
   padding-top: 15px;
   padding-bottom: 5px;
+  width: 50%;
   font-size: 20px;
-  background-color: gold;
+  background-color: #bbb;
   font-weight: 'bold';
   color: black
 }

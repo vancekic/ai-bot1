@@ -1,4 +1,6 @@
 .dialogLineYou {
+    list-style-type: none;
+    text-align: left;
     margin: 5;
     padding-left: 10;
     padding-right: 10;
@@ -10,6 +12,8 @@
 }
 
 .dialogLine {
+    list-style-type: none;
+    text-align: right;
     margin: 5;
     padding-left: 10;
     padding-right: 10;

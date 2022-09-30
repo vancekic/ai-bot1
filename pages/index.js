@@ -35,13 +35,13 @@ const submitPromptHandler = (textFromHuman) => {
 
 const submitAiHandler = (textFromAi) => {
   SetDialogLineCount(dialogLineCount + 1);
-  return addLineHandler(textFromAi, false);
+  addLineHandler(textFromAi, false);
 }
   
   const addLineHandler = (val, isHuman) => {
     // debug
     let debug = "adding line #" + dialogLineCount.toString() + " for ";
-    debug += {isHuman} ? "a Human" : "an AI";
+    debug += isHuman ? "a Human" : "an AI";
     console.log(debug);
     
     setDialogLines((prevLines) => {
