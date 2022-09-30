@@ -18,7 +18,7 @@ class EnterPrompt extends React.Component {
     resetPrompt() {
         console.log("resetting text input...");
         this.setState( {prompt: '' });
-        this.textInputRef.current.clear();
+        this.textInputRef.current.value='';
         this.textInputRef.current.focus();
     }
         
@@ -34,8 +34,8 @@ class EnterPrompt extends React.Component {
         this.props.submitHandler(this.state.prompt);
         
         // clear prompt
-        //this.resetPrompt();
-        this.setState({prompt: ''});
+        this.resetPrompt();
+        //this.setState({prompt: ''});
         
         // request data from server
         const prompt ="\nYou: " + this.state.prompt + "\nJohn: ";
