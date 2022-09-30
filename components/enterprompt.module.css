@@ -1,0 +1,39 @@
+.prompt {
+    background-color: rgb(151, 56, 56);
+    flex-direction: row;
+    padding: 5px;
+}
+
+.input {
+    height: 32;
+    width: 500;
+    padding-right: 8;
+    padding-left: 8;
+    padding-top: 6;
+    padding-bottom: 6;
+    text-align: left;
+    border-bottom-color: #333;
+    border-bottom-width: 1;
+}
+
+.button {
+    padding-right: 5px;
+    padding-left: 25px;
+    margin-left: 10px;
+    height: 30;
+    width: 120;
+    color: #333;
+    font-weight: bold;
+    border-color: #222;
+    border-width: 1;
+    justify-content: center;
+}
+
+.buttonText {
+    font-size: 20;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: coral;
+}
+

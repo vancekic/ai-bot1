@@ -1,0 +1,21 @@
+.dialogLineYou {
+    margin: 5;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 0.5;
+    padding-bottom: 0.5;
+    font-size: 16;
+    font-style: italic;
+    background-color: #ace;
+}
+
+.dialogLine {
+    margin: 5;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 0.5;
+    padding-bottom: 0.5;
+    font-size: 16;
+    font-style: italic;
+    background-color: #ccc;
+}
